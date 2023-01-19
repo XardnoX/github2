@@ -13,7 +13,7 @@ public class Main {
     public static void main(String[] args) {
 
         List<Zakaznik> list = new ArrayList<>();
-        list.add(new Zakaznik("Karel Pavel", 1));
+        list.add(new Zakaznik("Karel Pavel", 5));
         list.add(new Zakaznik("Petr Babiš", 9));
     ulozeniEvidence.scanFromFile(VSTUP);
     writeToFile(list);

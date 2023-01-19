@@ -21,7 +21,15 @@ public class Zakaznik {
         return pocetProdeju;
     }
 
+    public String getPocetProdejuCitelne() {
+        return "1:"+getPocetProdeju();
+    }
+
     public void setPocetProdeju(int pocetProdeju) {
+        if (pocetProdeju <=0) {
+
+            throw new RuntimeException("Počet prodejů nesmí být záporný ("+pocetProdeju+")!");
+        }
         this.pocetProdeju = pocetProdeju;
     }
 

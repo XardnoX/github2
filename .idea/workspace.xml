@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ad565ef0-ed33-42d5-97aa-a6a7d52d3ec4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cz/oauh/ZakaznikException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vstup.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vystup.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="ad565ef0-ed33-42d5-97aa-a6a7d52d3ec4" name="Changes" comment="0.1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cz/oauh/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cz/oauh/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cz/oauh/Zakaznik.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cz/oauh/Zakaznik.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cz/oauh/ulozeniEvidence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cz/oauh/ulozeniEvidence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vystup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/vystup.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +54,14 @@
       <option name="presentableId" value="Default" />
       <updated>1674126122846</updated>
     </task>
+    <task id="LOCAL-00001" summary="0.1">
+      <created>1674167267732</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674167267732</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -70,6 +74,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="0.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="0.1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
