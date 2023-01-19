@@ -4,7 +4,6 @@ public class Zakaznik {
     private String jmeno;
     private int pocetProdeju;
 
-
     public Zakaznik(String jmeno, int pocetProdeju) {
         this.jmeno = jmeno;
         this.pocetProdeju = pocetProdeju;
@@ -24,5 +23,14 @@ public class Zakaznik {
 
     public void setPocetProdeju(int pocetProdeju) {
         this.pocetProdeju = pocetProdeju;
+    }
+
+    @Override
+    public String toString() {
+        return "" +
+                "jmeno :'" + jmeno +
+                ", pocetProdeju :" + pocetProdeju
+                +'\n' ;
+
     }
 }
