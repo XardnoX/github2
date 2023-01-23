@@ -10,14 +10,17 @@ import java.util.List;
 public class Main {
     private static final String SOUBORY = "vystup.txt";
     private static final String VSTUP = "vstup.txt";
+
     public static void main(String[] args) {
 
         List<Zakaznik> list = new ArrayList<>();
         list.add(new Zakaznik("Karel Pavel", 5));
         list.add(new Zakaznik("Petr Babiš", 9));
-    ulozeniEvidence.scanFromFile(VSTUP);
-    writeToFile(list);
+        writeToFile(list);
+        UlozeniEvidence.scanFromFile(SOUBORY);
+
         System.out.println(list);
+
     }
 
 
@@ -30,6 +33,7 @@ public class Main {
                                 zakaznik.getPocetProdeju()
                 );
             }
+
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
